@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&family=Anton&family=Architects+Daughter&family=Asap+Condensed&family=Caveat:wght@400;500&family=Cinzel:wght@500&family=Cormorant+Garamond:wght@600&family=EB+Garamond&family=Josefin+Sans:wght@200&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@300&family=Oswald:wght@200&family=Overpass:wght@200&family=PT+Sans+Narrow&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&family=Space+Grotesk&family=Water+Brush&family=Yanone+Kaffeesatz:wght@300&family=Zen+Antique&family=Zen+Kurenaido&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background: #c33764;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1d2671, #c33764);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1d2671, #c33764);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-size: cover;
+    height: 100vh;
+    flex-direction: column;
+    animation: mymove 5s infinite;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    height: 200px;
+    width: 200px;
+    font-size: 48px;
+    border-radius: 50%;
+    /* box-shadow: 5px 5px 5px whitesmoke; */
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+
+.resultContainer {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    width: 100px;
+    height: 130px;
+}
+
+#endGameButton {
+    width: 160px;
+    height: 150px;
+    line-height: 50px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 680px) {
+    .wrapper {
+        background: #c33764;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1d2671, #c33764);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1d2671, #c33764);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        background-size: cover;
+        height: 100vh;
+        flex-direction: column;
+        animation: mymove 5s infinite;
+    }
+    button {
+        height: 160px;
+        width: 160px;
+        font-size: 48px;
+        border-radius: 50%;
+        /* box-shadow: 5px 5px 5px whitesmoke; */
+        border: none;
+        cursor: pointer;
+        margin-top: 30px;
+        background-color: whitesmoke;
+    }
+    img {
+        width: 90px;
+        height: 120px;
+        border-radius: 10px;
+    }
+    #endGameButton {
+        width: 130px;
+        height: 120px;
+        line-height: 50px;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .wrapper {
+        background: #c33764;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1d2671, #c33764);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1d2671, #c33764);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        background-size: cover;
+        height: 100vh;
+        flex-direction: column;
+        animation: mymove 5s infinite;
+    }
+    button {
+        height: 120px;
+        width: 120px;
+        font-size: 48px;
+        border-radius: 50%;
+        /* box-shadow: 5px 5px 5px whitesmoke; */
+        border: none;
+        cursor: pointer;
+        margin-top: 30px;
+        background-color: whitesmoke;
+    }
+    img {
+        width: 69px;
+        height: 80px;
+        border-radius: 10px;
+    }
+    #endGameButton {
+        width: 120px;
+        height: 110px;
+        line-height: 50px;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .wrapper {
+        background: #c33764;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1d2671, #c33764);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1d2671, #c33764);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        background-size: cover;
+        height: 100vh;
+        flex-direction: column;
+        animation: mymove 5s infinite;
+    }
+    button {
+        height: 120px;
+        width: 120px;
+        font-size: 48px;
+        border-radius: 50%;
+        /* box-shadow: 5px 5px 5px whitesmoke; */
+        border: none;
+        cursor: pointer;
+        margin-top: 30px;
+        background-color: whitesmoke;
+    }
+    img {
+        width: 60px;
+        height: 90px;
+        border-radius: 10px;
+    }
+    #endGameButton {
+        width: 120px;
+        height: 110px;
+        line-height: 50px;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wrapper {
+        background: #c33764;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1d2671, #c33764);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1d2671, #c33764);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        background-size: cover;
+        height: 100vh;
+        flex-direction: column;
+        animation: mymove 5s infinite;
+    }
+    button {
+        height: 110px;
+        width: 110px;
+        font-size: 48px;
+        border-radius: 50%;
+        /* box-shadow: 5px 5px 5px whitesmoke; */
+        border: none;
+        cursor: pointer;
+        margin-top: 30px;
+        padding: 10px;
+        background-color: whitesmoke;
+    }
+    img {
+        width: 60px;
+        height: 80px;
+        border-radius: 10px;
+    }
+    #endGameButton {
+        width: 130px;
+        height: 110px;
+        line-height: 50px;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .wrapper {
+        background: #c33764;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1d2671, #c33764);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1d2671, #c33764);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        background-size: cover;
+        height: 100vh;
+        flex-direction: column;
+        animation: mymove 5s infinite;
+    }
+    button {
+        height: 90px;
+        width: 90px;
+        font-size: 48px;
+        border-radius: 50%;
+        /* box-shadow: 5px 5px 5px whitesmoke; */
+        border: none;
+        cursor: pointer;
+        margin-top: 30px;
+        background-color: whitesmoke;
+    }
+    img {
+        width: 50px;
+        height: 70px;
+        border-radius: 10px;
+    }
+    #endGameButton {
+        width: 100px;
+        height: 90px;
+        line-height: 50px;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
+
+@keyframes mymove {
+    0% {
+        left: 0;
+        background: #005c97;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #363795, #005c97);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #363795, #005c97);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    33% {
+        left: 30;
+        background: #1a2980;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #26d0ce, #1a2980);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #26d0ce, #1a2980);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    66% {
+        left: 60;
+        background: #24c6dc;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #514a9d, #24c6dc);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #514a9d, #24c6dc);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    86% {
+        left: 80;
+        background: #003973;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #e5e5be, #003973);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #e5e5be, #003973);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    100% {
+        left: 100;
+        background: #d3cce3;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #e9e4f0, #d3cce3);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
